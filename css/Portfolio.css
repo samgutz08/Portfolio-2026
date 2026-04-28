@@ -1,4 +1,23 @@
 body {
     background-color: #e1f9ff;
-    
+    display: flex;
+    justify-content: center;
+
+}
+
+#main-container {
+    width: 1024px;
+    height: 3000px;
+    border: solid 1px black;
+
+}  
+
+#three-top-boxes {
+    width: 1024px;
+    height: 400px;
+
+}
+#main-logoandname {
+    width: 750px;
+    height: 640px;
 }
