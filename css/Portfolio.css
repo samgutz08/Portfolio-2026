@@ -20,4 +20,29 @@ body {
 #main-logoandname {
     width: 750px;
     height: 640px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 350px;
+}
+#first-navigation {
+    height: 350px;
+    width: 300px;
+    margin-top: -650px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 10;
+}
+#experience-button {
+    height: 90px;
+    width: 350px;
+}
+#school-button {
+    height: 90px;
+    width: 350px;
+    
+}
+#sports-button {
+    height: 90px;
+    width: 350px;
 }

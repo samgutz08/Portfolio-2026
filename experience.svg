@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 313.65 56.63">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #898989;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #afafaf;
+      }
+
+      .cls-4 {
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 31.27px;
+        font-weight: 800;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="-8.2" y="-8.38" width="344" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="pretty_muchhh_the_whole_home_page" data-name="pretty muchhh the whole home page">
+    <g class="cls-1">
+      <polygon class="cls-2" points="69.34 10.81 92.07 1.37 247.57 .5 312.72 44.8 293.61 56.1 69.34 10.81"/>
+      <polygon class="cls-3" points="1.65 55.82 69.34 10.81 225.56 10.81 293.61 56.1 1.65 55.82"/>
+      <text class="cls-4" transform="translate(55.63 45.11)"><tspan x="0" y="0">Experience</tspan></text>
+    </g>
+  </g>
+</svg>
