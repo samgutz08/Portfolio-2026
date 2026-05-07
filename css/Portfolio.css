@@ -5,6 +5,10 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 #main-container {
     width: 1024px;
     height: 4500px;
@@ -46,7 +50,7 @@ body {
     height: 90px;
     width: 350px;
 }
-#experience-top-layer {
+#experience-top-layer-id {
     height: 90px;
     width: 350px;
     margin-left: 330px;
@@ -63,10 +67,22 @@ body {
     425px 2px, 
     600px 0px, 
     1024px 260px, 
-    1024px 1000px, 
-    0px 1000px, 
+    1024px 2000px, 
+    0px 2000px, 
     0px 265px
     );
-    margin-top: -89px;
+    margin-top: -33px;
   }
   
+#home-button {
+    height: 10px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#school-button-LEVEL-experience {
+    height: 10px;
+    width: 350px;
+    margin-left: 665px;
+    margin-top: -105px;
+}
