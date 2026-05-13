@@ -58,22 +58,8 @@ html {
     position: relative;
     z-index: 10;
 }
-.hexagon {
-    width: 1024px;
-    aspect-ratio: 0.866; /* Correct ratio for a regular hexagon */
-    background: #bbeaff;
-    /* Coordinates for the 6 points of the hexagon */
-    clip-path: polygon(
-    425px 2px, 
-    600px 0px, 
-    1024px 260px, 
-    1024px 2000px, 
-    0px 2000px, 
-    0px 265px
-    );
-    margin-top: -143px;
-  }
-  
+
+
 #home-button {
     height: 10px;
     width: 80px;
@@ -87,7 +73,6 @@ html {
     margin-top: -105px;
 }
 #sports-button-LEVEL-experience {
-    height: px;
     width: 260px;
     margin-left: 758px;
     margin-top: 50px;
@@ -98,9 +83,29 @@ html {
          url('arial_black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
+.hexagon {
+    width: 1024px;
+    aspect-ratio: 0.866; /* Correct ratio for a regular hexagon */
+    background: #bbeaff;
+    /* Coordinates for the 6 points of the hexagon */
+    clip-path: polygon(
+    425px 2px, 
+    600px 0px, 
+    1024px 260px, 
+    1024px 2000px, 
+    0px 2000px, 
+    0px 265px
+    );
+    margin-top: -158px;
+    position: relative;
+  }
 #first-ptag {
+    position: absolute;
+    top: 100px;
+    left: 520px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 40px
     
 }
