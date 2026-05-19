@@ -2,24 +2,18 @@ body {
     background-color: #e1f9ff;
     display: flex;
     justify-content: center;
-
 }
-
 html {
     scroll-behavior: smooth;
   }
-  
 #main-container {
     width: 1024px;
     height: 4500px;
     border: solid 1px black;
-
 }  
-
 #three-top-boxes {
     width: 1024px;
     height: 400px;
-
 }
 #main-logoandname {
     width: 750px;
@@ -43,8 +37,7 @@ html {
 }
 #school-button {
     height: 90px;
-    width: 350px;
-    
+    width: 350px; 
 }
 #sports-button {
     height: 90px;
@@ -58,8 +51,6 @@ html {
     position: relative;
     z-index: 10;
 }
-
-
 #home-button {
     height: 10px;
     width: 80px;
@@ -97,7 +88,7 @@ html {
     0px 2000px, 
     0px 265px
     );
-    margin-top: -158px;
+    margin-top: -142px;
     position: relative;
   }
 #first-ptag {
@@ -107,5 +98,22 @@ html {
     transform: translate(-50%, -50%);
     z-index: 100; 
     font-size: 40px
-    
+}
+#software-Ptag {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px
+}
+#photoshop-h2 {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 40px
 }
