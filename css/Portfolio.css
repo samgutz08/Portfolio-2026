@@ -147,10 +147,69 @@ html {
     margin-top: 300px;
     margin-left: 25px;
 }
-/* not done */
-#mr.win {
+#mr-win {
     height: 208px;
     width: auto;
-    margin-top: 300px;
-    margin-left: 25px;
+    left: 690px;
+    top: 470px;
+    position: absolute;
+}
+#More-projects-button {
+    font-family: 'arial_blackregular';
+    font-weight: 990;
+    font-size: 40px;      
+    color: #0000FF;        
+    text-decoration: none; 
+    margin-top: 870px;
+    margin-left: -600px;
+    position:absolute;
+}
+#More-Info {
+    font-family: 'arial_blackregular';
+    font-weight: 990;
+    font-size: 40px;    
+    text-decoration: none; 
+    margin-top: 870px; 
+    position:absolute;
+    color: #000000;  
+}
+#Technical-Skills {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 1000px;
+    left: 520px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px
+}
+#Amater-Photography {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 1150px;
+    left: 260px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 35px
+}
+#Html-css {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 1150px;
+    left: 770px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 35px
+}
+/* Not done */
+#Flowers {
+    height: 383px;
+    width: auto;
+    margin-top: 390px;
+    margin-left: 30px;  
+}
+#code-screenshot {
+    height: 280px;
+    width: auto;
+    margin-top: 390px;
+    margin-left: 500px;
 }
