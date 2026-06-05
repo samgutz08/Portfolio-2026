@@ -200,16 +200,47 @@ html {
     z-index: 100; 
     font-size: 35px
 }
-/* Not done */
-#Flowers {
+#Flowers-pic {
     height: 383px;
     width: auto;
-    margin-top: 390px;
-    margin-left: 30px;  
+    position: absolute;
+    z-index: 100;
+    top: 1250px; 
+    left: 100px; 
 }
 #code-screenshot {
     height: 280px;
     width: auto;
-    margin-top: 390px;
-    margin-left: 500px;
+    position: absolute;
+    z-index: 150;
+    top: 1250px;
+    left: 450px;
+}
+#More-Photos {
+    font-family: 'arial_blackregular';
+    font-weight: 990;
+    font-size: 40px;      
+    color: #0000FF;        
+    text-decoration: none; 
+    margin-top: 1650px;
+    margin-left: -560px;
+    position:absolute;
+}
+#See-Final-Page {
+    font-family: 'arial_blackregular';
+    font-weight: 990;
+    font-size: 40px;    
+    text-decoration: none; 
+    margin-top: 1550px; 
+    position:absolute;
+    color: #000000; 
+}
+#Resume-words {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 1900px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px
 }
