@@ -3,18 +3,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
 #main-container {
     width: 1024px;
-    height: 6000px;
+    height: 5080px;
     border: solid 1px black;
 }  
+
 #three-top-boxes {
     width: 1024px;
     height: 400px;
 }
+
 #main-logoandname {
     width: 750px;
     height: 640px;
@@ -23,6 +27,7 @@ html {
     position: relative;
     bottom: 350px;
 }
+
 #first-navigation {
     height: 350px;
     width: 300px;
@@ -31,18 +36,22 @@ html {
     position: relative;
     z-index: 10;
 }
+
 #experience-button {
     height: 90px;
     width: 350px;
 }
+
 #school-button {
     height: 90px;
     width: 350px; 
 }
+
 #sports-button {
     height: 90px;
     width: 350px;
 }
+
 #experience-top-layer-id {
     height: 90px;
     width: 350px;
@@ -51,23 +60,27 @@ html {
     position: relative;
     z-index: 10;
 }
+
 #home-button {
     height: 10px;
     width: 80px;
     margin-top: 30px;
     margin-left: 10px;
 }
+
 #school-button-LEVEL-experience {
     height: 10px;
     width: 350px;
     margin-left: 665px;
     margin-top: -105px;
 }
+
 #sports-button-LEVEL-experience {
     width: 260px;
     margin-left: 758px;
     margin-top: 50px;
 }
+
 @font-face {
     font-family: 'arial_blackregular';
     src: url('arial_black-webfont.woff2') format('woff2'),
@@ -75,30 +88,33 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+
 .hexagon {
     width: 1024px;
     height: 3000px;
     background: #bbeaff;
     /* Coordinates for the 6 points of the hexagon */
     clip-path: polygon(
-    425px 2px, 
-    600px 0px, 
-    1024px 260px, 
-    1024px 3000px, 
-    0px 3000px, 
-    0px 265px
+        425px 2px, 
+        600px 0px, 
+        1024px 260px, 
+        1024px 3000px, 
+        0px 3000px, 
+        0px 265px
     );
     margin-top: -142px;
     position: relative;
-  }
+}
+
 #first-ptag {
     position: absolute;
     top: 100px;
     left: 520px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 40px
+    font-size: 40px;
 }
+
 #software-Ptag {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -106,8 +122,9 @@ html {
     left: 520px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 50px
+    font-size: 50px;
 }
+
 #photoshop-h2 {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -115,8 +132,9 @@ html {
     left: 180px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 40px
+    font-size: 40px;
 }
+
 #illustrator-h2 {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -124,8 +142,9 @@ html {
     left: 530px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 40px
+    font-size: 40px;
 }
+
 #indesign-h2 {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -133,20 +152,23 @@ html {
     left: 850px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 40px
+    font-size: 40px;
 }
+
 #impossible-photography {
     height: 383px;
     width: auto;
     margin-top: 390px;
     margin-left: 30px;
 }
+
 #Famous-woman {
     height: 383px;
     width: auto;
     margin-top: 300px;
     margin-left: 25px;
 }
+
 #mr-win {
     height: 208px;
     width: auto;
@@ -154,25 +176,29 @@ html {
     top: 470px;
     position: absolute;
 }
+
 #More-projects-button {
     font-family: 'arial_blackregular';
-    font-weight: 990;
+    font-weight: 900;
     font-size: 40px;      
     color: #0000FF;        
     text-decoration: none; 
     margin-top: 870px;
     margin-left: -600px;
-    position:absolute;
+    position: absolute;
 }
+
 #More-Info {
     font-family: 'arial_blackregular';
-    font-weight: 990;
+    font-weight: 900;
+    font-weight: bold;
     font-size: 40px;    
     text-decoration: none; 
     margin-top: 870px; 
-    position:absolute;
+    position: absolute;
     color: #000000;  
 }
+
 #Technical-Skills {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -180,17 +206,19 @@ html {
     left: 520px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 50px
+    font-size: 50px;
 }
-#Amater-Photography {
+
+#Amateur-Photography {
     font-family: 'arial_blackregular';
     position: absolute;
     top: 1150px;
     left: 260px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 35px
+    font-size: 35px;
 }
+
 #Html-css {
     font-family: 'arial_blackregular';
     position: absolute;
@@ -198,8 +226,9 @@ html {
     left: 770px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 35px
+    font-size: 35px;
 }
+
 #Flowers-pic {
     height: 383px;
     width: auto;
@@ -208,6 +237,7 @@ html {
     top: 1250px; 
     left: 100px; 
 }
+
 #code-screenshot {
     height: 280px;
     width: auto;
@@ -216,31 +246,301 @@ html {
     top: 1250px;
     left: 450px;
 }
+
 #More-Photos {
     font-family: 'arial_blackregular';
-    font-weight: 990;
+    font-weight: 900;
     font-size: 40px;      
     color: #0000FF;        
     text-decoration: none; 
     margin-top: 1650px;
     margin-left: -560px;
-    position:absolute;
+    position: absolute;
 }
+
 #See-Final-Page {
     font-family: 'arial_blackregular';
-    font-weight: 990;
+    font-weight: 900;
     font-size: 40px;    
     text-decoration: none; 
     margin-top: 1550px; 
-    position:absolute;
+    position: absolute;
     color: #000000; 
 }
+
 #Resume-words {
     font-family: 'arial_blackregular';
     position: absolute;
     top: 1900px;
-    left: 400px;
+    margin-left: 10px;
     transform: translate(-50%, -50%);
     z-index: 100; 
-    font-size: 50px
+    font-size: 50px;
+}
+
+.second-hexagon {
+    width: 1024px;
+    height: 3000px;
+    background: #58b6e2;
+    /* Coordinates for the 6 points of the hexagon */
+    clip-path: polygon(
+        425px 2px, 
+        600px 0px, 
+        1024px 260px, 
+        1024px 2000px, 
+        0px 2000px, 
+        0px 265px
+    );
+    margin-top: -720px;
+    z-index: 200;
+    position: relative;
+}
+
+#home-button-2 {
+    height: 10px;
+    width: 80px;
+    margin-top: -600px;
+    margin-left: 10px;
+    z-index: 200;
+    position: absolute;
+}
+
+#experience-button-school-layer {
+    height: 10px;
+    width: 350px;
+    margin-left: 665px;
+    margin-top: -700px;
+    z-index: 200;
+    position: absolute;
+}
+
+#sports-button-LEVEL-school {
+    width: 260px;
+    margin-left: 758px;
+    margin-top: -640px;
+    position: absolute;
+    z-index: 200;
+}
+
+#school-top-layer {
+    height: 90px;
+    width: 350px;
+    margin-left: 330px;
+    margin-top: -722px;
+    position: absolute;
+    z-index: 210;
+}
+
+#school-top-layer-2 {
+    height: 90px;
+    width: 350px;
+    margin-left: 330px;
+    margin-top: -2102px;
+    position: absolute;
+    z-index: 310;
+}
+
+#Class-27 {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px;
+}
+
+#Major {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 400px;
+    left: 270px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px;
+}
+
+#gpa {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    top: 580px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px;
+}
+
+#Click-Here {
+    position: absolute;
+    top: 720px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 50px;
+}
+
+#Cab {
+    height: auto;
+    width: 400px;
+    margin-top: 450px;
+    margin-left: 620px;
+    z-index: 210;
+}
+
+.third-hexagon {
+    width: 1024px;
+    height: 3000px;
+    background: #366cff;
+    /* Coordinates for the 6 points of the hexagon */
+    clip-path: polygon(
+        425px 2px, 
+        600px 0px, 
+        1024px 260px, 
+        1024px 1113px, 
+        0px 1113px, 
+        0px 265px
+    );
+    margin-top: -2100px;
+    z-index: 300;
+    position: relative;
+}
+
+#home-button-3 {
+    height: 10px;
+    width: 80px;
+    margin-top: -1980px;
+    margin-left: 10px;
+    z-index: 310;
+    position: absolute;
+}
+
+#experience-button-sports-layer {
+    height: 10px;
+    width: 350px;
+    margin-left: 665px;
+    margin-top: -2080px;
+    z-index: 310;
+    position: absolute;
+}
+
+#school-button-LEVEL-sports {
+    width: 260px;
+    margin-left: 758px;
+    margin-top: -2020px;
+    position: absolute;
+    z-index: 310;
+}
+
+#sports-top-layer {
+    height: 90px;
+    width: 350px;
+    margin-left: 330px;
+    margin-top: -2102px;
+    position: absolute;
+    z-index: 310;
+}
+
+#Volleyball {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 50px;
+}
+#big-volleyball {
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+#more-info {
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 100px;
+    position: absolute;
+}
+#more-pictures {
+    font-size: 40px;
+    margin-top: 400px;
+    margin-left: 100px;
+    position: absolute;
+}
+#clubs-organizations {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 750px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 40px;
+}
+#Click-Here-2 {
+    position: absolute;
+    top: 650px;
+    left: 740px;
+    transform: translate(-50%, -50%);
+    z-index: 100; 
+    font-size: 40px;
+}
+#football {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 500px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 50px;
+}
+#more-info-2 {
+    font-size: 40px;
+    margin-top: 830px;
+    margin-left: -100px;
+    position: absolute;
+}
+#more-pictures-2 {
+    font-size: 40px;
+    margin-top: 900px;
+    margin-left: -130px;
+    position: absolute;
+}
+#back-to-top {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -510px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 50px;
+    text-decoration: none;
+}
+#experience-bottom {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 210px;
+    margin-left: -910px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 30px;
+    text-decoration: none;
+}
+#school-bottom {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -910px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 40px;
+    text-decoration: none;
+}
+#sports-bottom {
+    font-family: 'arial_blackregular';
+    position: absolute;
+    margin-top: 220px;
+    margin-left: -115px;
+    transform: translate(-50%, -50%);
+    z-index: 500; 
+    font-size: 50px;
+    text-decoration: none;
 }

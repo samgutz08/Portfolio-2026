@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.67 66.01">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 48px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #898989;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #afafaf;
+      }
+
+      .cls-4 {
+        letter-spacing: .05em;
+      }
+    </style>
+  </defs>
+  <g id="pretty_muchhh_the_whole_home_page" data-name="pretty muchhh the whole home page">
+    <g>
+      <polygon class="cls-2" points="79.57 12.37 105.74 1.5 284.74 .5 359.74 51.5 337.74 64.5 79.57 12.37"/>
+      <polygon class="cls-3" points="1.65 64.18 79.57 12.37 259.4 12.37 337.74 64.5 1.65 64.18"/>
+      <text class="cls-1" transform="translate(85.39 51.29)"><tspan x="0" y="0">Spo</tspan><tspan class="cls-4" x="98.7" y="0">r</tspan><tspan x="122.39" y="0">ts</tspan></text>
+    </g>
+  </g>
+</svg>

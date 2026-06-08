@@ -1,0 +1,28 @@
+body {
+    background-color: #e1f9ff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Gives the absolute home button a reference point */
+}
+
+#main-div {
+    width: 1024px;
+    border: solid 1px black;
+    /* Note: I removed the 8000px height so the container naturally 
+       fits your resume image, but you can add it back if required */
+}  
+
+#resume-img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes default bottom whitespace alignment issues */
+}
+
+#big-home {
+    position: absolute;
+    top: 20px;       /* Distance from the top of the screen */
+    left: 20px;      /* Distance from the left of the screen */
+    z-index: 10;     /* Ensures the button stays on top of everything else */
+}

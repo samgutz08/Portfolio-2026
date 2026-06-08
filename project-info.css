@@ -1,0 +1,17 @@
+body {
+    background-color: #e1f9ff;
+    display: flex;
+    justify-content: center;
+}
+#main-container {
+    width: 1024px;
+    height: 5080px;
+    
+    border: solid 1px black;
+}  
+#three-top-boxes {
+    width: 1024px;
+    height: 400px;
+    position: absolute;
+    
+}
